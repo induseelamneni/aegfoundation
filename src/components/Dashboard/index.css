@@ -1,0 +1,119 @@
+.dashboard-bg {
+  background-color: transparent;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.points-card {
+  height: 150px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: #ffffffff;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 25px;
+}
+.points-card-1 {
+  margin: 25px;
+}
+
+.points {
+  font-size: 30px;
+  font-weight: 600;
+}
+.points1 {
+  font-size: 22px;
+  font-weight: 300;
+}
+.team-name {
+  font-size: 17px;
+  font-weight: 500;
+  color: gray;
+  font-family: 'Roboto';
+}
+.graph {
+  width: 200px;
+  align-self: flex-end;
+  margin-bottom: 30px;
+}
+.color-r {
+  color: 'red';
+  background-color: purple;
+}
+.color-p {
+  color: 'red';
+  background-color: yellowgreen;
+}
+.color-t {
+  color: 'red';
+  background-color: yellow;
+}
+
+.overall-status-card {
+  width: 500px;
+  height: 500px;
+  background-color: #ffffff;
+  margin-top: 48px;
+  margin-left: 10px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+.overall {
+  font-size: 22px;
+  font-weight: 700;
+  color: gray;
+  margin-left: 10px;
+}
+.round-graph {
+  margin-top: 20px;
+}
+.graph-tasks-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.task {
+  font-weight: 600;
+}
+.total-value-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.task1 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 60px;
+}
+.overall1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: gray;
+  margin-left: 20px;
+}
+.each-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.project-card {
+  height: 50px;
+  width: 95%;
+  border: 1px solid gray;
+  list-style-type: none;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 9px;
+  margin-right: 20px;
+  background-color: #fff;
+}
+.bar-para {
+  width: 70%;
+  color: transparent;
+  margin-bottom: 20px;
+}
