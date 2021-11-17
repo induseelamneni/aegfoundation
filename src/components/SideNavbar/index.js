@@ -1,7 +1,8 @@
 import './index.css'
 import {Component} from 'react'
 import Cookies from 'js-cookie'
-import {AiOutlineDashboard, AiOutlineLogout} from 'react-icons/ai'
+import {AiOutlineLogout} from 'react-icons/ai'
+import {MdOutlineHome} from 'react-icons/md'
 
 class SideNavbar extends Component {
   renderButtonIcons = () => {
@@ -23,7 +24,20 @@ class SideNavbar extends Component {
           className={`list-style ${btnClassName}`}
         >
           <button type="button" className={`dashboard-btn ${btnColor}`}>
-            <AiOutlineDashboard className={`dashboard-icon ${btnColor}`} />
+            {activeNavBarItem === item.name ? (
+              <img
+                src={item.white}
+                alt="changing icons"
+                className={`dashboard-icon ${btnColor}`}
+              />
+            ) : (
+              <img
+                src={item.green}
+                alt="changing icons"
+                className={`dashboard-icon ${btnColor}`}
+              />
+            )}
+
             {item.name}
           </button>
         </li>
@@ -41,10 +55,15 @@ class SideNavbar extends Component {
       <div className="sidebar">
         <ul className="buttons-container">{this.renderButtonIcons()}</ul>
 
+        <button type="button" className="dashboard-btn dashboard-btn1">
+          <MdOutlineHome className="dashboard-icon" />
+          Reports
+        </button>
+
         <div>
           <button
             type="button"
-            className="dashboard-btn"
+            className="dashboard-btn dashboard-btn1"
             onClick={onClickLogout}
           >
             <AiOutlineLogout className="dashboard-icon" />

@@ -9,7 +9,7 @@ const NavbarTop = props => {
         <img
           src="https://res.cloudinary.com/dmd5feuh9/image/upload/v1636518052/aeglogo_cai5x7.png"
           alt="logo"
-          className="logo"
+          className="main-logo"
         />
         <hr className="standing-line" />
         <h1 className="selected-btn-name">{activeNavBarItem}</h1>

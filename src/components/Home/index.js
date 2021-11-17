@@ -12,21 +12,37 @@ const sideNavBarItems = [
     id: 0,
 
     name: 'Dashboard',
+    green:
+      'https://res.cloudinary.com/dmd5feuh9/image/upload/v1636611582/dashgreen_xyhb5w.png',
+    white:
+      'https://res.cloudinary.com/dmd5feuh9/image/upload/v1636611597/dashwhite_fdvzur.png',
   },
   {
     id: 1,
 
     name: 'Projects',
+    green:
+      'https://res.cloudinary.com/dmd5feuh9/image/upload/v1636611612/projectgreen_zobef7.png',
+    white:
+      'https://res.cloudinary.com/dmd5feuh9/image/upload/v1636611622/projectwhite_hrj60u.png',
   },
   {
     id: 2,
 
     name: 'Teams',
+    green:
+      'https://res.cloudinary.com/dmd5feuh9/image/upload/v1636611661/groupgreen_j4iutc.png',
+    white:
+      'https://res.cloudinary.com/dmd5feuh9/image/upload/v1636611671/groupwhite_uwxqlw.png',
   },
   {
     id: 3,
 
     name: 'Donors',
+    green:
+      'https://res.cloudinary.com/dmd5feuh9/image/upload/v1636611691/housegreen_mum4mk.png',
+    white:
+      'https://res.cloudinary.com/dmd5feuh9/image/upload/v1636611705/housewhite_jgdwxq.png',
   },
 ]
 

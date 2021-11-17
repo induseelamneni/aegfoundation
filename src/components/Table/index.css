@@ -1,0 +1,27 @@
+.app-bg {
+  background-image: url('https://res.cloudinary.com/dmd5feuh9/image/upload/v1636955468/image_33_kw7eud.png');
+  background-size: cover;
+  height: 130vh;
+  margin-top: 0px;
+}
+@media screen and (max-width: 768px) {
+  .app-bg {
+    background-image: url('https://res.cloudinary.com/dmd5feuh9/image/upload/v1636955468/image_33_kw7eud.png');
+    background-size: cover;
+    max-width: 360px;
+    height: 200vh;
+  }
+  .card {
+    height: 100%;
+  }
+}
+.card {
+  width: 95%;
+  height: 90%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  align-self: center;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-bottom: 10px;
+}

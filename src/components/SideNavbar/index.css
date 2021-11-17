@@ -10,6 +10,9 @@
   align-items: center;
   width: 100%;
 }
+.dashboard-btn1 {
+  margin-left: 50px;
+}
 .dashboard-icon {
   margin-right: 10px;
   width: 28px;
@@ -21,6 +24,7 @@
 }
 .active-btn {
   background-color: #ffffff;
+  width: 100%;
 }
 
 .active-color-btn {
@@ -36,4 +40,16 @@
   border-bottom-left-radius: 15px;
   display: flex;
   flex-direction: column;
+}
+.sidebar {
+  width: 230px;
+  padding: 20px;
+  background-color: #3cb371;
+  font-family: 'Roboto';
+  font-size: 20px;
+  flex-shrink: 0;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

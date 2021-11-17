@@ -1,0 +1,210 @@
+.table-card-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.ul1 {
+  width: 100%;
+}
+.main-table-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+.main-table-row1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .main-table-row {
+    max-width: 360px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main-table-row1 {
+    max-width: 368px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .th1 {
+    font-size: 9px;
+  }
+  .ul1 {
+    max-width: 368px;
+  }
+  .th2 {
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .name-initial {
+    width: 10px;
+    height: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+  .table-row1 {
+    width: 100%;
+  }
+}
+.main-table-row-body {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+}
+.th-main {
+  border: 1px solid grey;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.th1 {
+  border-left: 1px solid grey;
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  font-family: 'Roboto';
+}
+.th-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.th2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 90%;
+  margin-right: 20px;
+}
+.s-no {
+  width: 70%;
+}
+.s-no-main {
+  width: 0%;
+}
+.list-style1 {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+
+  flex-shrink: 1;
+}
+.title-main {
+  width: 10%;
+}
+.Description {
+  margin-right: 20px;
+}
+
+.total {
+  align-self: center;
+}
+.name-initial {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.s1 {
+  background-color: rgb(255, 255, 128);
+}
+.s2 {
+  background-color: #74992e;
+}
+.s3 {
+  background-color: rgba(255, 255, 128, 0.5);
+}
+.s4 {
+  background-color: hsla(50, 33%, 25%, 0.75);
+}
+.table-row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.eye-icon {
+  color: #74992e;
+  margin-right: 5px;
+}
+.edit {
+  color: blue;
+  margin-right: 5px;
+}
+.paper {
+  color: blueviolet;
+  margin-right: 5px;
+}
+.delete {
+  color: red;
+  margin-right: 5px;
+}
+.add-sloka-button {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 10px;
+}
+.add-sloka-btn {
+  background-color: palevioletred;
+  border-radius: 10px;
+  color: #ffffff;
+  border-width: 0px;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+  width: 110px;
+}
+.empty-space {
+  color: transparent;
+}
+.total1 {
+  margin-right: 30%;
+}
+.margin {
+  margin: 10px;
+}
+.line {
+  width: 100%;
+  color: lightgrey;
+  margin-right: 10px;
+}
+.align-center {
+  align-items: center;
+}

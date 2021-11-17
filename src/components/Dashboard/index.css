@@ -18,7 +18,10 @@
   margin: 25px;
 }
 .points-card-1 {
-  margin: 25px;
+  margin: 15px;
+}
+.type-card {
+  margin-bottom: 10px;
 }
 
 .points {
@@ -57,8 +60,35 @@
   width: 500px;
   height: 500px;
   background-color: #ffffff;
-  margin-top: 48px;
+  margin-top: 40px;
   margin-left: 10px;
+
+  border-radius: 20px;
+}
+
+.overall-status-card-p {
+  width: 400px;
+  height: 500px;
+  background-color: #ffffff;
+  margin-top: 40px;
+  margin-left: 10px;
+
+  border-radius: 20px;
+}
+.overall-status-card1 {
+  width: 800px;
+  height: 400px;
+  background-color: #ffffff;
+  margin-top: 40px;
+  margin-left: 50px;
+  border-radius: 20px;
+}
+.overall-status-card3 {
+  width: 400px;
+  height: 400px;
+  background-color: #ffffff;
+
+  margin-top: 40px;
   margin-left: 10px;
   border-radius: 20px;
 }
@@ -102,7 +132,7 @@
   align-items: center;
 }
 .project-card {
-  height: 50px;
+  height: 60px;
   width: 95%;
   border: 1px solid gray;
   list-style-type: none;
@@ -116,4 +146,79 @@
   width: 70%;
   color: transparent;
   margin-bottom: 20px;
+}
+.task2 {
+  font-size: 12px;
+  font-weight: 700;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.bar-size {
+  width: 50%;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.financial-graph-description-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.points-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin-left: 20px;
+}
+.color-fill {
+  color: transparent;
+  width: 30px;
+  height: 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.color-fill-b {
+  background-color: blue;
+}
+.color-fill-r {
+  background-color: red;
+}
+.color-fill-y {
+  background-color: yellow;
+}
+
+.color-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.bar-graph {
+  width: 800px;
+  height: 300px;
+}
+
+.activity-icon {
+  width: 20px;
+  height: 20px;
+}
+.activity-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.project-description-card {
+  margin-left: 60px;
+}
+.project-name {
+  font-size: 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.task-description {
+  font-size: 12px;
+  font-weight: 500;
+  color: gray;
 }

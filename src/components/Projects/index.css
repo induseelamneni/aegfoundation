@@ -1,0 +1,208 @@
+.projects-bg {
+  background-color: transparent;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.status-container {
+  width: 95%;
+  margin-left: 20px;
+  height: 5%;
+  background-color: #ffffff;
+  margin-top: 10px;
+  flex-shrink: 1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttons-container-p {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: flex-end;
+
+  padding-left: 0px;
+  margin-top: 42px;
+}
+
+.status-container-r {
+  margin-right: 10px;
+}
+.bars-icon {
+  color: #3cb371;
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+.app-store {
+  color: gray;
+  width: 30px;
+  height: 30px;
+}
+.add-project-container {
+  width: 95%;
+  margin-left: 20px;
+  height: 10px;
+  background-color: transparent;
+  margin-top: 40px;
+  flex-shrink: 1;
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+}
+.plus-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ongoing-projects-list-container {
+  width: 95%;
+  height: 70vh;
+  margin-left: 20px;
+  margin-top: 50px;
+  flex-shrink: 1;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.plus-icon {
+  width: 20px;
+  height: 20px;
+  color: #3cb371;
+}
+.table-row {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  width: 95%;
+}
+.table-row-main {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  width: 90%;
+  margin: 10px;
+}
+.first-el {
+  font-family: 'Arial';
+  font-size: 12px;
+  font-weight: 400;
+  color: gray;
+  margin-left: 5px;
+}
+.list-style1 {
+  list-style-type: none;
+}
+.project-detail-1 {
+  font-family: 'Arial';
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
+.ul {
+  list-style-type: none;
+}
+.line-p {
+  width: 90%;
+  margin-left: 0px;
+}
+
+.ongoing-projects-cards-container {
+  width: 90%;
+  height: 80vh;
+  margin-left: 20px;
+  margin-top: 20px;
+  flex-shrink: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.card {
+  width: 270px;
+  height: 350px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 10px;
+}
+.li-inside-card {
+  margin: 10px;
+}
+.pr {
+  font-size: 10px;
+  color: gray;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.project-name2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.total-p-v {
+  font-size: 16px;
+  color: gray;
+}
+.total-value-in-rs {
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  margin-left: 20px;
+}
+.img {
+  width: 150px;
+  height: 150px;
+}
+.pr-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.timp {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+.logo {
+  width: 20px;
+  height: 20px;
+}
+.p-logo {
+  width: 40px;
+  height: 40px;
+  margin-left: 50px;
+}
+
+.status-btn {
+  width: 90px;
+  height: 20px;
+  border-width: 0px;
+  background-color: #3cb371;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 800;
+  margin-left: 50px;
+}
+.project-detail-container-1 {
+  display: flex;
+  flex-direction: row;
+}
+.project1 {
+  margin-right: 50px;
+  margin-left: 10px;
+}

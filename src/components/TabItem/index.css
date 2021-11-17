@@ -1,0 +1,15 @@
+.active-btn-s {
+  border-bottom: 5px solid green;
+}
+.project-btn {
+  background-color: transparent;
+  border-width: 0px;
+  font-family: 'Arial';
+  font-size: 16px;
+  font-weight: 800;
+  color: gray;
+  margin-left: 25px;
+}
+.list-st {
+  margin-top: 90px;
+}

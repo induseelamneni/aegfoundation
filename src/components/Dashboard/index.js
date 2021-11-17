@@ -8,11 +8,84 @@ const cardData = [
   {id: 2, name: 'Teams', points: '5', class: 'color-t'},
 ]
 const ProjectData = [
-  {id: 0, name: 'projects 1', percentage: '65', class: 'color-r'},
-  {id: 1, name: 'projects 2', percentage: '36', class: 'color-p'},
-  {id: 2, name: 'projects 3', percentage: '24', class: 'color-t'},
-  {id: 3, name: 'projects 4', percentage: '95', class: 'color-r'},
-  {id: 4, name: 'projects 5', percentage: '19', class: 'color-p'},
+  {
+    id: 0,
+    name: 'projects 1',
+    percentage: '70',
+    class: 'color-r',
+    barUrl:
+      'https://res.cloudinary.com/dmd5feuh9/image/upload/v1636601117/bar3_ogfauk.png',
+  },
+  {
+    id: 1,
+    name: 'projects 2',
+    percentage: '90',
+    class: 'color-p',
+    barUrl:
+      'https://res.cloudinary.com/dmd5feuh9/image/upload/v1636601026/bar1_ncf3ss.png',
+  },
+  {
+    id: 2,
+    name: 'projects 3',
+    percentage: '80',
+    class: 'color-t',
+    barUrl:
+      'https://res.cloudinary.com/dmd5feuh9/image/upload/v1636601107/bar2_yoqn7j.png',
+  },
+  {
+    id: 3,
+    name: 'projects 4',
+    percentage: '70',
+    class: 'color-r',
+    barUrl:
+      'https://res.cloudinary.com/dmd5feuh9/image/upload/v1636601117/bar3_ogfauk.png',
+  },
+  {
+    id: 4,
+    name: 'projects 5',
+    percentage: '80',
+    class: 'color-p',
+    barUrl:
+      'https://res.cloudinary.com/dmd5feuh9/image/upload/v1636601107/bar2_yoqn7j.png',
+  },
+]
+
+const todayActivityCard = [
+  {
+    id: 0,
+    url:
+      'https://tse3.mm.bing.net/th?id=OIP.4KYmB7Rx1a82fXuv-j9aVwHaH0&pid=Api&P=0&w=300&h=300',
+    projectName: 'Project1',
+    task: 'Task 5 Completed',
+  },
+  {
+    id: 1,
+    url:
+      'https://tse3.mm.bing.net/th?id=OIP.xacTOvkTZ1mZy-ZinJjJLAHaHk&pid=Api&P=0&w=300&h=300',
+    projectName: 'Project1',
+    task: 'Task 5 Completed',
+  },
+  {
+    id: 2,
+    url:
+      'https://tse3.mm.bing.net/th?id=OIP.L-X8_uYc8J5Hkyq2H5lBkQHaHa&pid=Api&P=0&w=300&h=300',
+    projectName: 'Project1',
+    task: 'Task 5 Completed',
+  },
+  {
+    id: 3,
+    url:
+      'https://tse3.mm.bing.net/th?id=OIP.L-X8_uYc8J5Hkyq2H5lBkQHaHa&pid=Api&P=0&w=300&h=300',
+    projectName: 'Project1',
+    task: 'Task 5 Completed',
+  },
+  {
+    id: 4,
+    url:
+      'https://tse3.mm.bing.net/th?id=OIP.4KYmB7Rx1a82fXuv-j9aVwHaH0&pid=Api&P=0&w=300&h=300',
+    projectName: 'Project1',
+    task: 'Task 5 Completed',
+  },
 ]
 
 const Dashboard = () => (
@@ -56,17 +129,56 @@ const Dashboard = () => (
         </div>
       </div>
     </div>
-    <div className="overall-status-card">
+    <div className="overall-status-card-p">
       <h1 className="overall">Project Status</h1>
       <ul>
         {ProjectData.map(each => (
           <li className="project-card">
             <div className="each-section">
-              <p className="task">{each.name}</p>
-              <p className="task">{each.percentage}%</p>
+              <p className="task2">{each.name}</p>
+              <p className="task2">{each.percentage}%</p>
             </div>
-            <div>
-              <p className={`bar-para ${each.class}`}>1</p>
+            <img src={each.barUrl} alt="bar filler" className="bar-size" />
+          </li>
+        ))}
+      </ul>
+    </div>
+    <div className="overall-status-card1">
+      <div className="financial-graph-description-container">
+        <h1 className="overall">Financial Status</h1>
+        <div className="points-description">
+          <p className="color-container">
+            <p className="color-fill color-fill-b">t</p> task 1
+          </p>
+          <p className="color-container">
+            <p className="color-fill color-fill-r">t</p> task 2
+          </p>
+          <p className="color-container">
+            <p className="color-fill color-fill-y">t</p> task 3
+          </p>
+        </div>
+      </div>
+      <div>
+        <img
+          src="https://res.cloudinary.com/dmd5feuh9/image/upload/v1636604232/bargraph1_bpfuda.png"
+          alt="bar graph"
+          className="bar-graph"
+        />
+      </div>
+    </div>
+    <div className="overall-status-card3">
+      <h1 className="overall">Today Activity</h1>
+      <ul>
+        {todayActivityCard.map(each => (
+          <li key={each.id} className="activity-list">
+            <img
+              src={each.url}
+              alt="activity symbol"
+              className="activity-icon"
+            />
+            <div className="project-description-card">
+              <p className="project-name">{each.projectName}</p>
+              <p className="task-description">{each.task}</p>
             </div>
           </li>
         ))}
